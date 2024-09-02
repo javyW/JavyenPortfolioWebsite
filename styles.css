@@ -176,10 +176,17 @@ body {
 }
 
 /* Projects */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
 .projects-list {
     display: flex;
-    justify-content: space-between;
+    justify-content: center; /* Center the list items */
     flex-wrap: wrap;
+    gap: 20px; /* Add gap between items for spacing */
 }
 
 .project-item {
@@ -217,6 +224,7 @@ body {
 .project-item p:hover {
     color: #58a6ff; /* Slightly brighter blue on hover */
 }
+
 
 /* Contact Form */
 form {
