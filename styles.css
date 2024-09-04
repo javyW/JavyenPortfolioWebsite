@@ -27,7 +27,7 @@ body {
     color: #a3c9f1; /* Light blue text color */
     padding: 20px 0;
     position: fixed;
-    width: 145%;
+    width: 100%;
     top: 0;
     z-index: 1000;
     transition: background 0.3s ease;
